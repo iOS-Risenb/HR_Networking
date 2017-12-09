@@ -1,0 +1,6 @@
+framework module HR_Networking {
+  umbrella header "HR_Networking-umbrella.h"
+
+  export *
+  module * { export * }
+}
