@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HR_Networking_Example' do
+  pod 'HR_Networking', :path => '../'
+
+  target 'HR_Networking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
